@@ -1,0 +1,47 @@
+init x 5 
+init y 
+init z 2
+
+set y 10
+set z x
+
+add x 3
+sub y x
+mul z 2
+div y 2
+
+inc x 
+dec y 
+
+show x
+show y 
+show z 
+
+cycle x > 5
+    dec x 
+    show x 
+endcycle
+
+if x < 6 
+    show x 
+ endif
+
+init a 15
+init b 20
+swap a b       
+
+init res
+pow res 2 3
+
+init ft
+fact ft 5
+
+init fb
+fib fb 10
+
+init gp
+g_progress gp 2 3 4
+
+init ap
+a_progress ap 1 5 10
+

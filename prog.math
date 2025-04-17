@@ -1,0 +1,5 @@
+create x 3
+create y 7
+
+add x y
+show x
